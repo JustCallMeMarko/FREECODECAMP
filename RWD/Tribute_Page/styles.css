@@ -1,10 +1,56 @@
+* {
+    font-family: sans-serif;
+}
+h1 {
+    text-align: center;
+    font-size: 2.5rem;
+    color: #333;
+    margin-top: 20px;
+}
+figure {
+    width: 30%;
+    min-width: 250px;
+    margin-inline: auto;
+    padding: 14px;
+    border-radius: 6px;
+    outline: 2px solid #ccc;
+}
+
+figcaption {
+    text-align: center;
+    font-size: 1.2rem;
+    color: #333;
+    margin-top: 10px;
+}
+
 img {
-  display: block;
+    display: block;
 
 }
 
+section {
+    width: 70%;
+    margin-inline: auto;
+}
+
+ul li {
+    font-size: 14px;
+    margin: 0;
+    padding: 0;
+    text-align: justify;
+    margin-bottom: 8px;
+}
+
 #image {
-  max-width: 100%;
-  height: auto;
-  margin: auto 0;
+    max-width: 100%;
+    height: auto;
+    margin: auto 0;
+}
+
+.bold {
+    font-size: 16px;
+    font-weight: 600;
+}
+p{
+    text-align: center;
 }
