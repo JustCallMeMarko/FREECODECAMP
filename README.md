@@ -1,8 +1,8 @@
 # My FreeCodeCamp files
 <details>
     <summary>RWD (Responsive Web Design)</summary>
-    <ul>
+    """<ul>
         <li>Summary</li>
         <li>Tribute Page</li>
-    </ull>
+    </ull>"""
 </details>
