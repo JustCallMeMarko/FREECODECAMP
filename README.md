@@ -1,10 +1,11 @@
 # My FreeCodeCamp files
 <details>
-    <summary>RWD (Responsive Web Design)</summary>
-    ```
-    <ul>
-        <li>Summary</li>
-        <li>Tribute Page</li>
-    </ul>
-    ```
+<summary>RWD (Responsive Web Design)</summary>
+<br/>
+
+```
+1. Survey
+2. Tribute Page
+```
+
 </details>
