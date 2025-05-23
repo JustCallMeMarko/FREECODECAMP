@@ -1,0 +1,35 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <title>Building a Survey Form</title>
+  <meta charset="UTF-8">
+  <link rel="stylesheet" href="styles.css">
+</head>
+<body>
+  <h1 id="title">My Survey Form</h1>
+  <p id="description">This is my survey form for freecodecamp</p>
+  <form id="survey-form">
+    <div><label id="name-label">Name<input id="name" type="text" placeholder="Enter Name" required/></label>
+    </div>
+    <div><label id="email-label">Email<input id="email" type="email" placeholder="Enter Email" required/></label></div>
+    <div><label id="number-label">Age<input id="number" type="number" min="13" max="100" placeholder="enter age"/></label></div>
+    <div><label id="food-label">
+      <select id="dropdown">
+        <option>Pizza
+        <option>Donut
+      </select>
+    </label></div>
+    
+    <div><label id="gender-label">Whats your gender?
+      <input type="radio" value="male" name="genders" checked/>male
+      <input type="radio" value="female" name="genders"/>female
+    </div></label>
+    <div><label id="status-label">Whats your status?
+      <input type="checkbox" value="single" name="genders" checked/>Single
+      <input type="checkbox" value="relationship" name="genders"/>In Relationship
+    </div></label>
+    <div><label id="bio"><textarea></textarea></label></div>
+    <input type="submit" id="submit">
+  </form>
+</body>
+</html>
